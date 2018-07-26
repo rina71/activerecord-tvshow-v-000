@@ -1,4 +1,4 @@
-class CreateShows < ActiveRecord::migration[5.1]
+class CreateShows < ActiveRecord::migration
   def change
     create_table :shows do |t|
       t.string :name
