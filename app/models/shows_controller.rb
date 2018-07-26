@@ -1,3 +1,3 @@
 def highest_rating
-  Show.rating
+  Show.maximum("rating")
 end
