@@ -1,5 +1,5 @@
 class Show < ActiveRecord::Base
-binding.pry
+# binding.pry
   def self.highest_rating
 
     Show.maximum("rating")
