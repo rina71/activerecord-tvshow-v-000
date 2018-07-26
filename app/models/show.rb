@@ -5,6 +5,6 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-    Show.order("updated_at DESC").maximum(:rating)
+    Show.select.maximum(:rating)
   end
 end
